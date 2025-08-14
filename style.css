@@ -1,13 +1,103 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    background-color: aqua;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
 }
-.container>div{
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+.grid-container > div {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+.item1 {
+  grid-row: 1 / 4;
+}
+
+
+
+.table {
+    margin-top: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.table > div {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+.tab4 {
+  grid-area: 1 / 2 / 3 / 2;
+}
+
+
+
+.table3 {
+    margin-top: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.table3 > div {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+.con4 {
+  grid-area: 1 / 1 / span 4 / span 1;
+}
+
+
+
+.table4{
+    margin-top: 60px;
+  display: grid;
+  grid-template-areas: 'myArea myArea myArea . .';
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.table4 > div {
+  background-color: #f1f1f1;
+  color:#000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.le1 {
+  grid-area: myArea;
+}
+
+
+
+.table5 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+
+.table5 > div {
+  background-color: #f1f1f1;
+  color:#000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.em1 {
+  justify-self: right;
+}
+
+.em6 {
+  justify-self: center;
 }
