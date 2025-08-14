@@ -79,13 +79,13 @@
 
 
 .table5 {
+    margin-top: 60px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
   background-color: dodgerblue;
   padding: 10px;
 }
-
 .table5 > div {
   background-color: #f1f1f1;
   color:#000;
@@ -93,11 +93,9 @@
   font-size: 30px;
   text-align: center;
 }
-
 .em1 {
   justify-self: right;
 }
-
 .em6 {
   justify-self: center;
 }
